@@ -22,6 +22,7 @@ class Fahrrad(user: MutableMap<String, String>) {
             println("Ihr gewählte Tour:")
             println("$tour, $dauer, $schwiergkeit")
         }
+
         if (eingabe == standOrtWaehlen[1]) {
             var tour = ("${tourWaehlen[1]} ")
             var dauer = ("${dauerWaehlen[1]} Stunde ")
@@ -29,6 +30,7 @@ class Fahrrad(user: MutableMap<String, String>) {
             println("Ihr gewählte Tour:")
             println("$tour, $dauer, $schwiergkeit")
         }
+
         if (eingabe == standOrtWaehlen[2]) {
             var tour = ("${tourWaehlen[2]} ")
             var dauer = ("${dauerWaehlen[2]} Stunde ")

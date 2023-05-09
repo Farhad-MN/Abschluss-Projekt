@@ -52,14 +52,14 @@ fun main(){
         //todo => Tour planen, für die Sportarten.
 
     val tourPlanen:TourPlanen = TourPlanen(user)
-    tourPlanen.tourHinzufuegen_Mountainbike()
+    tourPlanen.tourHinzufuegenMountainbike()
 
     println("------------------------")
 
         //todo => Tour Aufzeichnen, für die Sportarten.
 
     val touraufzeichnen:Touraufzeichnen = Touraufzeichnen(user)
-    touraufzeichnen.tourAufnehmen_Mountainbike()
+    touraufzeichnen.tourAufnehmenMountainbike()
 
 
 

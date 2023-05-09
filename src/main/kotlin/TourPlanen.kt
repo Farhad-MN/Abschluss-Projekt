@@ -5,20 +5,21 @@ class TourPlanen(user: MutableMap<String, String>) {
     var dauerWaehlen: MutableList<Int> = mutableListOf(1, 2, 3)
     var schwiergkeit: MutableList<String> = mutableListOf("Leicht", "Mittelschwer", "Schwer")
 
-    fun tourHinzufuegen_Mountainbike() {
+    fun tourHinzufuegenMountainbike() {
 
         println("Tour für Mountainbike wird Hinzugefügt!")
 
-        val neueTour_Mountainbike = standOrtWaehlen
+        val neueTourMountainbike = standOrtWaehlen
 
 
-        for (neueTour_Mountainbike in standOrtWaehlen) {
+        if (neueTourMountainbike == standOrtWaehlen) {
 
             standOrtWaehlen.add("(Start Punkt-4)")
             tourWaehlen.add("(Tour D)")
             dauerWaehlen.add((4))
             schwiergkeit.add("(sehr Schwer)")
-            print("$standOrtWaehlen\n$tourWaehlen\n$dauerWaehlen\n$schwiergkeit ")
+
+            print("\n $standOrtWaehlen \n $tourWaehlen \n $dauerWaehlen \n $schwiergkeit ")
         }
 
 

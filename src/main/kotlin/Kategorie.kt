@@ -10,21 +10,21 @@ open class Kategorie(user: MutableMap<String, String>){
 
     open fun Mountainbike(){
         println("Wählen Sie ihr Sportart: $sportArt1 ")
-        println("Bitte (Ok) oder (Eingaben taste) tätigen!")
+        println("Bitte (Ok) oder (Eingaben taste) Bestätigen!")
         val eingabenTaste = readln()
         println(eingabenTaste)
 
     }
     open fun Fahrrad(){
         println("Wählen Sie ihr Sportart: $sportArt2")
-        println("Bitte (Ok) oder (Eingaben taste) tätigen!")
+        println("Bitte (Ok) oder (Eingaben taste) Bestätigen!")
         val eingabenTaste = readln()
         println(eingabenTaste)
 
     }
     open fun Wandern(){
         println("Wählen Sie ihr Sportart: $sportArt3")
-        println("Bitte (Ok) oder (Eingaben taste) tätigen!")
+        println("Bitte (Ok) oder (Eingaben taste) Bestätigen!")
         val eingabenTaste = readln()
         println(eingabenTaste)
 

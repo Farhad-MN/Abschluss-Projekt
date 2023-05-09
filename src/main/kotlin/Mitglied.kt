@@ -15,7 +15,7 @@ fun breitMitglied(user: MutableMap<String, String>) {
                     userLogIn = true
                     println("Willkommen")
                 } else {
-                    println("Falsches Passwort.")
+                    println("Falsches Passwort oder Falsches E'mail.")
                     versuche-=1
                     println("Versuch sie es noch einmal, Sie haben noch $versuche!")
 
