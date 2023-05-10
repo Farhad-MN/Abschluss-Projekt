@@ -1,9 +1,15 @@
-class Wandern(user: MutableMap<String, String>) {
-    val standOrtWaehlen = mutableListOf("Start Punkt-1","Start Punkt-2","Start Punkt-3")
 
+
+
+class Wandern(user: MutableMap<String, String>):Kategorie(user) {
+
+
+    val standOrtWaehlen = mutableListOf("Start Punkt-1","Start Punkt-2","Start Punkt-3")
     var tourWaehlen: MutableList<String> = mutableListOf("Tour A", "Tour B", "Tour C")
     var dauerWaehlen: MutableList<Int> = mutableListOf(1, 2, 3)
     var schwiergkeit: MutableList<String> = mutableListOf("Leicht", "Mittelschwer", "Schwer")
+
+
 
     fun tourWahelen_Wandern() {
 
@@ -13,6 +19,8 @@ class Wandern(user: MutableMap<String, String>) {
         println("Bitte geben Sie ein!")
         var eingabe = readln()
 
+
+
         if (eingabe == standOrtWaehlen[0]) {
             var tour = ("${tourWaehlen[0]} ")
             var dauer = ("${dauerWaehlen[0]} Stunde ")
@@ -21,6 +29,7 @@ class Wandern(user: MutableMap<String, String>) {
             println("$tour, $dauer, $schwiergkeit")
         }
 
+
         if (eingabe == standOrtWaehlen[1]) {
             var tour = ("${tourWaehlen[1]} ")
             var dauer = ("${dauerWaehlen[1]} Stunde ")
@@ -28,6 +37,7 @@ class Wandern(user: MutableMap<String, String>) {
             println("Ihr gewählte Tour:")
             println("$tour, $dauer, $schwiergkeit")
         }
+
 
         if (eingabe == standOrtWaehlen[2]) {
             var tour = ("${tourWaehlen[2]} ")

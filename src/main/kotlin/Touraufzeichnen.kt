@@ -1,10 +1,14 @@
-class Touraufzeichnen(user: MutableMap<String, String>) {
+class Touraufzeichnen(user: MutableMap<String, String>):Kategorie(user) {
+
+
 
 
     val standOrtWaehlen  = mutableListOf<String>("Start Punkt-1","Start Punkt-2","Start Punkt-3","Start Punkt-4")
     var tourWaehlen: MutableList<String> = mutableListOf("Tour A", "Tour B", "Tour C")
     var dauerWaehlen: MutableList<Int> = mutableListOf(1, 2, 3, 4)
     var schwiergkeit: MutableList<String> = mutableListOf("Leicht", "Mittelschwer", "Schwer")
+
+
 
 
     fun tourAufnehmenMountainbike() {

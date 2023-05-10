@@ -1,4 +1,4 @@
-open class Kategorie(user: MutableMap<String, String>){
+open class Kategorie(user: MutableMap<String, String>) {
 
 
     val sportArt1 = "Mountainbike"

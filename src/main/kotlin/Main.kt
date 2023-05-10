@@ -3,7 +3,7 @@
 fun main(){
 
 
-    var user= mutableMapOf<String,String>("muster@gmail.de" to "Frutti")
+    val user= mutableMapOf<String,String>("muster@gmail.de" to "Frutti")
 
     println("------------------------")
         //todo => Breit Mitglied.
