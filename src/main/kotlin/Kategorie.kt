@@ -1,5 +1,11 @@
-open class Kategorie(user: MutableMap<String, String>) {
+open class Kategorie {
 
+
+    var user: MutableMap<String, String>
+
+    constructor(user: MutableMap<String, String>) {
+        this.user = user
+    }
 
     val sportArt1 = "Mountainbike"
     val sportArt2 = "Fahrrad"
