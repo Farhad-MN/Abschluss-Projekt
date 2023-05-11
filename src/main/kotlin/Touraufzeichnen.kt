@@ -1,9 +1,12 @@
+
+
+
 class Touraufzeichnen(user: MutableMap<String, String>):Kategorie(user) {
 
 
 
 
-    val standOrtWaehlen  = mutableListOf<String>("Start Punkt-1","Start Punkt-2","Start Punkt-3","Start Punkt-4")
+    val standOrtWaehlen: MutableList<String>  = mutableListOf<String>("Start Punkt-1","Start Punkt-2","Start Punkt-3","Start Punkt-4")
     var tourWaehlen: MutableList<String> = mutableListOf("Tour A", "Tour B", "Tour C")
     var dauerWaehlen: MutableList<Int> = mutableListOf(1, 2, 3, 4)
     var schwiergkeit: MutableList<String> = mutableListOf("Leicht", "Mittelschwer", "Schwer")
@@ -27,7 +30,7 @@ class Touraufzeichnen(user: MutableMap<String, String>):Kategorie(user) {
 
         }
 
-        println("Um Tour zu Starten Bitte (Ok) oder (Eingaben taste) tätigen!")
+        println("Um Tour zu Starten Bitte (Ok) oder (Eingaben taste) Bestätigen!")
         val eingabenTaste = readln()
         println("$eingabenTaste Viel Spass beim Tour!")
 

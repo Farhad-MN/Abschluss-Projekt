@@ -1,12 +1,13 @@
 
+                    // todo: Anmeldung für die Mitglieder, die eine Konto haben.
 
-
-fun breitMitglied(user: MutableMap<String, String>) {
+fun BreitMitglied(user: MutableMap<String, String>) {
 
             var versuche = 3
             var userLogIn = false
 
-            // todo: Anmeldung für die Mitglieder, die eine Konto haben.
+                // todo: funktion:=>  Diese Schleife (while) & (if - else) dient für die Anmeldung und
+                //  die Überprüfung die Angaben von Benutzer,ob  die richtig oder falsch sind.
 
             println("Haben Sie eine Konto? Bitte geben Sie ihr E`mail adresse und Password ein!")
 
@@ -27,7 +28,7 @@ fun breitMitglied(user: MutableMap<String, String>) {
 
                     println("Willkommen")
                 } else {
-                    println("Falsches Passwort oder Falsches E'mail.")
+                    println("Falsches Passwort oder Falsches E-mail.")
 
                     versuche-=1
 

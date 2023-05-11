@@ -1,5 +1,6 @@
 
-
+                        //Hier soll die Programmsteuerung implementiert werden.
+                        // d.H hier sollen nur Funktionen aufgerufen werden.
 fun main(){
 
 
@@ -8,7 +9,7 @@ fun main(){
     println("------------------------")
         //todo => Breit Mitglied.
 
-    breitMitglied(user)
+    BreitMitglied(user)
 
     println("------------------------")
 
@@ -24,7 +25,7 @@ fun main(){
     kategorie1.Mountainbike()
 
     val mountainbike:Mountainbike = Mountainbike(user)
-    mountainbike.tourWahelen()
+    mountainbike.tourWaehlenMountainbike()
 
     println("------------------------")
 
@@ -34,7 +35,7 @@ fun main(){
     kategorie2.Fahrrad()
 
     val fahrrad:Fahrrad = Fahrrad(user)
-    fahrrad.tourWahelen_Fahrrad()
+    fahrrad.tourWaehlenFahrrad()
 
     println("------------------------")
 
@@ -45,7 +46,7 @@ fun main(){
     kategorie3.Wandern()
 
     val wandern:Wandern = Wandern(user)
-    wandern.tourWahelen_Wandern()
+    wandern.tourWaehlenWandern()
 
     println("------------------------")
 

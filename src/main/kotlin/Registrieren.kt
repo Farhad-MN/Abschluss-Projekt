@@ -1,23 +1,25 @@
+
+
+
+
 fun Registrieren(user: MutableMap<String, String>): MutableMap<String, String> {
 
-            //todo: Registrieren für neue Mitglieder.
+            //todo: Registrieren für neue Benutzer.
 
      val name: String
      val vorname: String
      val geburtsjahr: Int
      val geschlecht: Char
-     val `e-mail`: String
+     val emailAdress: String
      val telefonnummer: String
 
 
 
-
-
-        println("Geben sie ihren Nachnamen ein:")
+        println("Geben sie ihren Vornamen ein:")
         name = readln()
         Thread.sleep(700)
 
-        println("Geben sie ihren Vornamen ein:")
+        println("Geben sie ihren Nachnamen ein:")
         vorname = readln()
         Thread.sleep(700)
 
@@ -29,8 +31,8 @@ fun Registrieren(user: MutableMap<String, String>): MutableMap<String, String> {
         geschlecht = readln().first()
         Thread.sleep(700)
 
-        println("Geben sie ihre Email ein:")
-        `e-mail` = readln()
+        println("Geben sie ihre E-Mail adresse ein:")
+        emailAdress = readln()
         Thread.sleep(700)
 
         println("Geben sie ihre Telefonnummer ein:")
@@ -48,7 +50,7 @@ fun Registrieren(user: MutableMap<String, String>): MutableMap<String, String> {
 
         println("Ihr neuer Account wurde erstellt mit den folgenden Daten: \n Name: $name" +
                 "\n Vorname: $vorname \n Geburtsjahr: $geburtsjahr \n " +
-                "Geschlecht: $geschlecht \n E'mail: $`e-mail` \n Telefonnummer: $telefonnummer \n Passwort: $password")
+                "Geschlecht: $geschlecht \n E'mail: $emailAdress \n Telefonnummer: $telefonnummer \n Passwort: $password")
 
     println("-------------")
 
