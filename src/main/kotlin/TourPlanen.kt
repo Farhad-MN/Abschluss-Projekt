@@ -1,5 +1,9 @@
 
 
+                    //todo: =>  hier wird die MutableListe fest gelegt, und wird eine neue
+                    // Tour geplant mit hilfe schleife (if ) und wird in die vorhandene liste zugefügt.
+
+
 class TourPlanen(user: MutableMap<String, String>):Kategorie(user) {
 
 

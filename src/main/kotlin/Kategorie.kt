@@ -1,3 +1,8 @@
+
+                        //todo: =>  als basis class, wird hier alle methoden von unter class festgelegt,
+                        // die später in (main) aufgerufen wird,
+
+
 open class Kategorie {
 
 

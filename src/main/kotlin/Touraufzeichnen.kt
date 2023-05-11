@@ -1,8 +1,10 @@
 
+                    //todo: =>  hier wird die MutableListe fest gelegt, und wird eine neue
+                    // Tour Aufzeichnen mit hilfe schleife (if ) und wird in
+                    // die vorhandene liste zugefügt und gespeichert.
 
 
 class Touraufzeichnen(user: MutableMap<String, String>):Kategorie(user) {
-
 
 
 
@@ -10,7 +12,6 @@ class Touraufzeichnen(user: MutableMap<String, String>):Kategorie(user) {
     var tourWaehlen: MutableList<String> = mutableListOf("Tour A", "Tour B", "Tour C")
     var dauerWaehlen: MutableList<Int> = mutableListOf(1, 2, 3, 4)
     var schwiergkeit: MutableList<String> = mutableListOf("Leicht", "Mittelschwer", "Schwer")
-
 
 
 

@@ -1,5 +1,10 @@
 
 
+                //todo: =>  zuerst wird die Variable initialisiert.
+                //    die Schleife läuft (while) mit (joinToString) Kontrolliert die leerzeichnen von
+                //    die Liste, bein fehlende leerzeichnen wird das Programm angehalten,
+                //    kommt dann auf nächste versuch. bis die richtig angaben gegeben ist.
+
 
 class Wandern(user: MutableMap<String, String>):Kategorie(user) {
 
