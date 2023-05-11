@@ -15,6 +15,7 @@ fun Registrieren(user: MutableMap<String, String>): MutableMap<String, String> {
 
 
 
+
         println("Geben sie ihren Vornamen ein:")
         name = readln()
         Thread.sleep(700)

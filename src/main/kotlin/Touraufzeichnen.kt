@@ -30,7 +30,7 @@ class Touraufzeichnen(user: MutableMap<String, String>):Kategorie(user) {
 
         }
 
-        println("Um Tour zu Starten Bitte (Ok) oder (Eingaben taste) Bestätigen!")
+        println("\n Um Tour zu Starten Bitte (Ok) oder (Eingaben taste) Bestätigen!")
         val eingabenTaste = readln()
         println("$eingabenTaste Viel Spass beim Tour!")
 

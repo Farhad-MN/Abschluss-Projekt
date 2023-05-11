@@ -48,6 +48,7 @@ fun main(){
     val wandern:Wandern = Wandern(user)
     wandern.tourWaehlenWandern()
 
+
     println("------------------------")
 
         //todo => Tour planen, für die Sportarten.

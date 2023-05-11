@@ -10,7 +10,6 @@ class TourPlanen(user: MutableMap<String, String>):Kategorie(user) {
     var schwiergkeit: MutableList<String> = mutableListOf("Leicht", "Mittelschwer", "Schwer")
 
 
-
     fun tourHinzufuegenMountainbike() {
 
         println("Tour für Mountainbike wird Hinzugefügt!")
@@ -28,6 +27,8 @@ class TourPlanen(user: MutableMap<String, String>):Kategorie(user) {
             print("\n $standOrtWaehlen \n $tourWaehlen \n $dauerWaehlen \n $schwiergkeit ")
         }
 
-
+        println("\n Um Tour zu Starten Bitte (Ok) oder (Eingaben taste) Bestätigen!")
+        val eingabenTaste = readln()
+        println("$eingabenTaste Viel Spass beim Tour!")
     }
 }

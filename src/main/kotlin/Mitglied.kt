@@ -6,6 +6,7 @@ fun BreitMitglied(user: MutableMap<String, String>) {
             var versuche = 3
             var userLogIn = false
 
+
                 // todo: funktion:=>  Diese Schleife (while) & (if - else) dient für die Anmeldung und
                 //  die Überprüfung die Angaben von Benutzer,ob  die richtig oder falsch sind.
 
